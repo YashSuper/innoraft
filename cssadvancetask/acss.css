@@ -54,6 +54,15 @@ h1 button:hover{
   font-family: roboto;
   height: 600px;
 }
+.content2 {
+  height:900px;
+  color: rgb(0,39,102);
+  font-family: roboto;
+  position: relative;
+  top: 50%;
+  transform: translate(0%,-50%);
+
+}
 .s1{
   height: 400px;
   position: relative;
@@ -172,4 +181,38 @@ line-height: 25px;
   border:none;
   padding:10px;
   border-radius: 0px 20px 20px 0px;
+}
+.q1{
+  height: 1000px;
+}
+.set{
+  transform:translate(0px,-100%);
+}
+.clear{
+  clear:both;height:250px;
+}
+.set2{
+  font-family:arial;font-weight:900;font-size:38px;
+}
+.dblock{
+display: block;
+}
+.h500{
+  height: 500px;
+}
+.wstrong{
+  color:white;font-weight:bolder;
+}
+.b1{
+  border-radius:7px;
+}
+.b2{
+  border-top-left-radius:7px;border-top-right-radius:7px;
+}
+.h400{
+  height: 400px;
+
+}
+.list{
+  list-style:none;float:left;
 }
