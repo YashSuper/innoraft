@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Jquery task 1</title>
+
+  </head>
+  <body>
+    <div style="height:200px;width:200px;background-color:red;"></div>
+    <button type="button" name="button" onclick="">Toggle visibility</button>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+      <script>
+$(document).ready(function(){var flag=0;
+  $("button").click(function(){
+    if(flag==0)
+    {
+      $("div").hide();
+      flag+=1;
+    }
+    else{
+        $("div").show();
+        flag=0;
+    }
+
+  });
+});
+</script>
+  </body>
+</html>
