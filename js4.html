@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form >
+
+    <input id="i1" type="text" name="" value="" placeholder="Enter your Name"><br>
+    <input id="i2" type="text" name="" value="" placeholder="Enter your Email"><br>
+    <input id="submit" type="submit" name="submit">
+  </form>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+      <script type="text/javascript">
+        $('#submit').click(()=>{
+          if($('#i1').val()=="" || $('#i2').val()=="")
+          alert("Enter details in both fields")
+        })
+      </script>
+  </body>
+</html>
