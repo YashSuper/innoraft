@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Js task 2</title>
+  </head>
+  <body style="color:white;">
+    <div style="width:100%;height:400px;background-color:blue;">
+      <div class="click" style="width:inherit;height:20%;background-color:darkorange;font-size:32px;text-align:center;">
+      <p>Click me to slide Hello world</p>
+      </div>
+      <p class="slide" style="position:relative; font-size:32px;text">Hello world</p>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+<script type="text/javascript">
+   flag=0;
+  $(".click").click(function(){
+    if(flag==0){flag=1;
+    $(".slide").animate({
+        left:500
+    })
+    console.log(flag)}
+    else
+    {flag=0;
+      $(".slide").animate({
+      left:0
+      });
+      console.log(flag);
+    }
+  })
+</script>
+  </body>
+</html>
